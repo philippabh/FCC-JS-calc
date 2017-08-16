@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>JS calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div>
+  <div id="container">
+    <h1>Free Code Camp - Javascript calculator</h1>
+    <h4 class="sub-text">by PBH</h4>
+  </div>
+  <div id="calculator">
+    <form>
+      <input type="text" id="display" disabled>
+      <br>
+      <input type="button" value="C" class="keys" onclick="toDisplay('C')">
+      <input type="button" value="CE" class="keys" onclick="clearEntry()">
+      <input type="button" value="x^2" class="keys" onclick="squared()">
+      <input type="button" value="/" class="keys operation" onclick="toDisplay('/')">
+      <br>
+      <input type="button" value="7" class="keys" onclick="toDisplay('7')">
+      <input type="button" value="8" class="keys" onclick="toDisplay('8')">
+      <input type="button" value="9" class="keys" onclick="toDisplay('9')">
+      <input type="button" value="*" class="keys operation" onclick="toDisplay('*')">
+      <br>
+      <input type="button" value="4" class="keys" onclick="toDisplay('4')">
+      <input type="button" value="5" class="keys" onclick="toDisplay('5')">
+      <input type="button" value="6" class="keys" onclick="toDisplay('6')">
+      <input type="button" value="-" class="keys operation" onclick="toDisplay('-')">
+      <br>
+      <input type="button" value="1" class="keys" onclick="toDisplay('1')">
+      <input type="button" value="2" class="keys" onclick="toDisplay('2')">
+      <input type="button" value="3" class="keys" onclick="toDisplay('3')">
+      <input type="button" value="+" class="keys operation" onclick="toDisplay('+')">
+      <br>
+      <input type="button" value="0" class="keys" onclick="toDisplay('0')">
+      <input type="button" value="." class="keys" onclick="toDisplay('.')">
+      <input type="button" value="=" class="bigkey" id="operation" onclick="equals()">
+    </form>
+    <p class="sub-text" id="calcFooter"><i>Powered by pixie dust</i></p>
+ </div>
+  
+  
+  
+  
+  
+  
+</div> <!-- container close div -->
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

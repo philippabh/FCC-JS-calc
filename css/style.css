@@ -1,0 +1,77 @@
+body {
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/2c/7d/3f/2c7d3f4485337399f632d7528712d424--pineapple-background-pineapple-wallpaper.jpg) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#container {
+  margin: 90px;
+}
+
+h1 {
+  color: #26A69A;
+  font-family: Waltograph UI, Verdana;
+  text-shadow: 2px 4px 5px white;
+}
+
+.sub-text {
+  color: #26A69A;
+  font-family: Verdana;
+}
+
+#calculator {
+  background-color: #FF8A80;
+  border: 2px solid #00BFA5;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 5px white;
+  height: 400px;
+  margin: -20px auto;
+  opacity: 0.95;
+  padding: 30px 20px 10px 20px;
+  width: 325px;
+}
+
+#calcFooter {
+  color: #FBE9E7;
+  font-size: 11px;
+  margin: 20px;
+}
+
+#display {
+  border: 1px solid #00BFA5;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px 2px #ccc;
+  height: 50px;
+  margin-bottom: 30px;
+  width: 10em;
+  text-align: right;
+  font: 22px bold;
+}
+
+.keys {
+  background-color: white;
+  box-shadow: 0px 0px 2px 1px #00BFA5;
+  border: 1px solid white;
+  border-radius: 2px;
+  font-family: courier;
+  font-weight: bold;
+  height: 41px;
+  margin: 4px;
+  outline: none;
+  width: 38px;
+}
+
+.bigkey {
+  background-color: white;
+  box-shadow: 0px 0px 2px 1px #00BFA5;
+  border: 1px white;
+  border-radius: 2px;
+  font-family: courier;
+  font-weight: bold;
+  height: 41px;
+  margin: 4px;
+  margin-right: 8px;
+  outline: none;
+  width: 88px;
+}

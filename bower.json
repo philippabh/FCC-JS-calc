@@ -1,0 +1,20 @@
+{
+  "name": "FCC-JS-calc",
+  "authors": [
+    "Philippa <p.springrhythm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
